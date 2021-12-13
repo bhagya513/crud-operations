@@ -1,0 +1,74 @@
+{
+  "phones": [
+    {
+      "id": 1,
+      "brand": "apple",
+      "model": "iphone6",
+      "price": 20000
+    },
+    {
+      "id": 2,
+      "brand": "apple",
+      "model": "iphone8",
+      "price": 30000
+    },
+    {
+      "id": 3,
+      "brand": "apple",
+      "model": "iphone12",
+      "price": 90000
+    },
+    {
+      "id": 4,
+      "brand": "apple",
+      "model": "iphone12 pro",
+      "price": "99000"
+    },
+    {
+      "id": 5,
+      "brand": "vivo",
+      "model": "F13pro",
+      "price": 18000
+    },
+    {
+      "id": 6,
+      "brand": "samsung",
+      "model": "galaxy30s",
+      "price": 17000
+    },
+    {
+      "id": 7,
+      "brand": "apple",
+      "model": "iphone13promax",
+      "price": 120000
+    },
+    {
+      "id": 8,
+      "brand": "oppo",
+      "model": "F19pro",
+      "price": 23000
+    },
+    {
+      "brand": "apple",
+      "model": "11 pro max",
+      "price": "89000",
+      "id": 9
+    },
+    {
+      "brand": "samsung ",
+      "model": "galaxy m30S",
+      "price": "25000",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

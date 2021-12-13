@@ -1,0 +1,26 @@
+<div class="container"> 
+    <table class="table"> 
+    <thead> 
+    <tr> 
+    <th>ID</th> 
+    <th>Brand</th> 
+    <th>MODEL</th> 
+    <th>PRICE</th> 
+    <th colspan="2">OPERATION</th>
+    </tr> 
+    </thead> 
+    <tbody> 
+    <tr *ngFor="let m of mobile"> 
+    <td>{{ m.id }}</td> 
+    <td>{{ m.brand }}</td> 
+    <td>{{ m.model }}</td> 
+    <td>{{ m.price }}</td> 
+    <td><button class="btn btn-danger" (click)="deleteMobile(m.id)">DELETE</button></td>
+    <td><button class="btn btn-success" (click)="editMobile(m.id)">EDIT</button></td>
+ 
+    </tr> 
+    </tbody> 
+    </table> 
+    </div>
+    
+    

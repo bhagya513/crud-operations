@@ -1,0 +1,60 @@
+<div class="container"> 
+    <h2>Mobile UPDATE PAGE</h2> 
+    <form action="#" (ngSubmit)="updateMobile()" method="POST"> 
+    <div class="row"> 
+    <div class="col-2">Id</div> 
+    <div class="col-4"> 
+    <input 
+    type="text" 
+    [(ngModel)]="mobile.id" 
+    name="id" 
+    class="form-control" 
+    readonly 
+    /> 
+    </div> 
+    </div> 
+    <div class="row"> 
+    <div class="col-2">Brand</div> 
+    <div class="col-4"> 
+    <input 
+    type="text" 
+    [(ngModel)]="mobile.brand" 
+    name="brand" 
+    class="form-control" 
+    /> 
+    </div> 
+    </div> 
+    <div class="row"> 
+    <div class="col-2">model</div> 
+    <div class="col-4"> 
+    <input 
+    type="text" 
+    [(ngModel)]="mobile.model" 
+    name="model" 
+    class="form-control" 
+    /> 
+    </div> 
+    </div> 
+    <div class="row"> 
+    <div class="col-2">price</div>
+    <div class="col-4"> 
+        <input 
+        type="text" 
+        [(ngModel)]="mobile.price" 
+        name="price" 
+        class="form-control" 
+        /> 
+        </div> 
+        </div> 
+        <div class="row"> 
+        <div class="col-2"></div> 
+        <div class="col-4"> 
+        <input type="submit" value="Update" class="btn btn-success" /> 
+        </div> 
+        </div> 
+        </form> 
+        </div>
+        
+        
+    
+    
